@@ -1,0 +1,34 @@
+programa {
+	funcao inicio() {
+		
+		//1. Faça um Programa que peça dois números e imprima o maior deles.
+		
+		real num1
+		real num2
+		
+		escreva("Olá me informe dois números que direi qual dos dois é maior \n")
+	    
+	    escreva("Me informe o primeiro número: ")
+	    leia(num1)
+	    limpa()
+	    
+	    escreva("Me informe o segundo número: ")
+	    leia(num2)
+	    limpa()
+	    
+	    se(num1 > num2){
+	    
+	    escreva(" O primeiro número é o maior entre os dois, número: ", num1, "\n")
+	    
+	    }se(num2 > num1){
+	        
+	    escreva(" O segundo número é o maior entre os dois, número: ", num2, "\n") 
+	    
+	    }se(num1 == num2){
+	        
+	    escreva(" Os números são iguais") 
+	        
+	    }
+		
+	}
+}
